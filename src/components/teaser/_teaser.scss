@@ -1,0 +1,6 @@
+.acb-teaser-v1-test {
+    .cmp-teaser {
+        background-color: $color-test;
+        @include teaser_test;
+    }
+}

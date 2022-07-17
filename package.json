@@ -1,0 +1,28 @@
+{
+  "name": "aem-components-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap of the AEM core components",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -w src -o dist/css --recursive --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chunliang/aem-components-bootstrap.git"
+  },
+  "keywords": [
+    "aem",
+    "core",
+    "components",
+    "bootstrap"
+  ],
+  "author": "Chunliang Deng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chunliang/aem-components-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Chunliang/aem-components-bootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
