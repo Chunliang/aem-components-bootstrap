@@ -1,8 +1,11 @@
 {
-  "name": "aem-components-bootstrap",
+  "name": "@chunliang/aem-components-bootstrap",
   "version": "1.0.0",
   "description": "Bootstrap of the AEM core components",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "watch": "node-sass -w src -o dist/css --recursive --output-style compressed"
   },
